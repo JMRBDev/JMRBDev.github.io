@@ -1,5 +1,4 @@
 @charset "UTF-8";
-
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -70,6 +69,36 @@ html {
 .dropdown-toggle:hover {
   text-decoration: none;
   color: var(--white);
+}
+
+.underlined1, .underlined2, .underlined3 {
+  padding: 2px 10px;
+  border-radius: 3px;
+}
+
+.underlined1 {
+  background-color: #52C6CD;
+}
+
+.underlined2 {
+  background-color: #F7B089;
+}
+
+.underlined3 {
+  background-color: #F66482;
+}
+
+.underlineditem1 {
+  background-color: red !important;
+}
+
+#special-height {
+  line-height: 45px;
+}
+
+#direct-contact-link, #direct-contact-link:hover {
+  color: white;
+  text-decoration: none;
 }
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
@@ -5010,7 +5039,7 @@ a.badge-dark:focus, a.badge-dark.focus {
   position: relative;
   display: block;
   padding: 0.75rem 1.25rem;
-  background-color: var(--white);
+  background-color: var(--light);
   border: 0.125rem solid rgba(0, 0, 0, 0.125);
 }
 
@@ -9323,13 +9352,13 @@ a.text-dark:hover, a.text-dark:focus {
 
 .portfolio-modal .portfolio-modal-title {
   font-size: 2.25rem;
-  line-height: 2rem;
+  line-height: 2.5rem;
 }
 
 @media (min-width: 992px) {
   .portfolio-modal .portfolio-modal-title {
     font-size: 3rem;
-    line-height: 2.5rem;
+    line-height: 3.5rem;
   }
 }
 
